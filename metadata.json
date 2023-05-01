@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "jwh0011@auburn.edu",
+                "Name": "Jon Hood"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Classification Widget",
+        "Icon": "preferences-system-time",
+        "Id": "org.kde.plasma.klassify",
+        "License": "GPL-2.0+",
+        "Name": "Klassify",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

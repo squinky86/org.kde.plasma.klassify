@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="bgColor" type="color">
+        <label>Select the background color of the banner.</label>
+	<default>#351E50</default>
+    </entry>
+    <entry name="fontColor" type="color">
+        <label>Select the text label color.</label>
+	<default>#FFFFFF</default>
+    </entry>
+    <entry name="fontSize" type="Int">
+        <label>Set the font size for the label.</label>
+	<default>18</default>
+    </entry>
+    <entry name="classification" type="string">
+        <label>Set a text label for the banner.</label>
+	<default>Controlled Unclassified Information (CUI)</default>
+    </entry>
+    <entry name="expanding" type="bool">
+        <label>If true, the banner tries to take all the available space in the panel.</label>
+        <default>true</default>
+    </entry>
+    <entry name="length" type="Int">
+        <label>length in pixels of the banner. Configuration effective only if expanding is set to false. A negative value means an invalid value that should be completely ignored.</label>
+        <default>-1</default>
+    </entry>
+  </group>
+
+</kcfg>
