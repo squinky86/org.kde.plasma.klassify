@@ -8,11 +8,24 @@
   <group name="General">
     <entry name="bgColor" type="color">
         <label>Select the background color of the banner.</label>
-	<default>#351E50</default>
+	<default>#007A33</default>
+	<!--
+		Background Colors:
+		UNCLASSIFIED: #007A33 (source: https://github.com/fcaviggia/classification-banner README.md, derived from SF-710)
+		CUI: #351E50 (source: the purple color definition on SF 901 11-2018, https://www.gsa.gov/cdnstatic/SF901-18a.pdf)
+		CONFIDENTIAL: #0033A0 (source: https://github.com/fcaviggia/classification-banner README.md, derived from SF-708)
+		SECRET: #C8102E (source: https://github.com/fcaviggia/classification-banner README.md, derived from SF-707)
+		TOP SECRET: #FF671F (source: https://github.com/fcaviggia/classification-banner README.md, derived from SF-706)
+		TOP SECRET SCI: #F7EA48 (source: https://github.com/fcaviggia/classification-banner README.md, derived from SF-712)
+		CLASSIFIED: #C1A7E2 (source: https://github.com/fcaviggia/classification-banner README.md, derived from SF-709)
+	-->
     </entry>
     <entry name="fontColor" type="color">
         <label>Select the text label color.</label>
 	<default>#FFFFFF</default>
+	<!--
+		Change to #000000 for lighter backgrounds
+	-->
     </entry>
     <entry name="fontSize" type="Int">
         <label>Set the font size for the label.</label>
@@ -20,7 +33,18 @@
     </entry>
     <entry name="classification" type="string">
         <label>Set a text label for the banner.</label>
-	<default>Controlled Unclassified Information (CUI)</default>
+	<default>UNCLASSIFIED</default>
+	<!--
+		UNCLASSIFIED: UNCLASSIFIED (alternatively, deprecated: FOR OFFICIAL USE ONLY)
+		CUI: CONTROLLED
+		CONFIDENTIAL: CONFIDENTIAL
+		SECRET: SECRET
+		TOP SECRET: TOP SECRET
+		TOP SECRET SCI: TOP SECRET SCI
+		CLASSIFIED: CLASSIFIED
+
+		NOTE: If the system is specifically dedicated to handling particularly caveats, this is where to put them.
+	-->
     </entry>
     <entry name="expanding" type="bool">
         <label>If true, the banner tries to take all the available space in the panel.</label>
