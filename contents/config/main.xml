@@ -43,7 +43,7 @@
 		TOP SECRET SCI: TOP SECRET SCI
 		CLASSIFIED: CLASSIFIED
 
-		NOTE: If the system is specifically dedicated to handling particularly caveats, this is where to put them.
+		NOTE: If the system is specifically dedicated to handling particularly caveats, this may be an appropriate place to put them.
 	-->
     </entry>
     <entry name="expanding" type="bool">
