@@ -8,7 +8,7 @@
         ],
         "Category": "System Information",
         "Description": "Classification Widget",
-        "Icon": "preferences-system-time",
+        "Icon": "security-high",
         "Id": "org.kde.plasma.klassify",
         "License": "GPL-2.0+",
         "Name": "Klassify",
